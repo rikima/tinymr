@@ -1,0 +1,16 @@
+- module: loader
+  config:
+    target: './parsed_tweets.list.terms'
+
+- module: ngram_mapper
+  config:
+    ngram: 3
+
+- module: sorter
+  config:
+    unit: 10000
+
+- module: reducer
+  config:
+
+ 

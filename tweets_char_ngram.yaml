@@ -1,0 +1,31 @@
+- module: tweets_character_ngram_mapper
+  config:
+    ngram: 7
+    db: ja
+    collection: tweets
+    target: './tweets'
+
+- module: sorter
+  config:
+    unit: 1000000
+
+- module: reducer
+  config:
+ 
+- module: inverse_mapper
+  config:
+    debug: 1
+
+- module: sorter
+  config:
+    debug: 1
+    unit: 1000000
+    numeric: True
+
+- module: inverse_reducer
+  config:
+
+- module: ranker
+  config:
+    output: './tweets.char.ngram'
+    debug: 1

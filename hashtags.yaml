@@ -1,0 +1,33 @@
+- module: load_hashtags
+  config:
+    db: ja
+    collection: tweets
+    target: './tweets'
+
+- module: mapper
+  config:
+
+- module: sorter
+  config:
+    unit: 10000
+
+- module: reducer
+  config:
+ 
+- module: inverse_mapper
+  config:
+    debug: 1
+
+- module: sorter
+  config:
+    debug: 1
+    unit: 10000
+    numeric: True
+
+- module: inverse_reducer
+  config:
+
+- module: ranker
+  config:
+    output: './tweets.hashtags.ranking'
+    debug: 1

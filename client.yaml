@@ -1,0 +1,32 @@
+- module: load_twitter_clients
+  config:
+    db: ja
+    collection: tweets
+    target: './twitter'
+
+- module: mapper
+  config:
+
+
+- module: sorter
+  config:
+    unit: 10000
+
+- module: reducer
+  config:
+ 
+- module: inverse_mapper
+  config:
+
+- module: sorter
+  config:
+    unit: 10000
+    numeric: True
+
+- module: inverse_reducer
+  config:
+    
+
+- module: ranker
+  config:
+    output: './twitter.clients.ranking'

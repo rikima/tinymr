@@ -1,0 +1,18 @@
+- module: loader
+  config:
+    target: './parsed_tweets.list.terms.mapped.sorted.reduced'
+
+- module: inverse_mapper
+  config:
+    debug: 1
+
+- module: sorter
+  config:
+    debug: 1
+    unit: 10000
+    numeric: True
+
+- module: inverse_reducer
+  config:
+    debug: 1
+ 

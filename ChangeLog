@@ -1,0 +1,23 @@
+2010-02-22  masaki rikitoku  <rikitoku@ulpalx.intranet.justsystem.co.jp>
+
+	* plugins/mapper.py (Mapper.execute): 
+	default mapper, key, value1 value2 value3 ....
+
+2010-02-19  masaki rikitoku  <rikitoku@ulpalx.intranet.justsystem.co.jp>
+
+	* plugins/df_mapper.py (DfMapper.execute): 
+	mapper referctering for df counting
+
+2010-02-17  masaki rikitoku  <rikitoku@ulpalx.intranet.justsystem.co.jp>
+
+	* tinymr
+		rename the package name to 'tinymr'
+
+2010-02-17  masaki rikitoku  <rikitoku@rikitokulx.intranet.justsystem.co.jp>
+
+	* wc.yaml: 
+	word count yaml
+
+	* mrsystem
+	縺ｫ繝代ャ繧ｱ繝ｼ繧ｸ蜷阪ｒ螟画峩
+

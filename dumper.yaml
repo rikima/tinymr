@@ -1,0 +1,6 @@
+- module: dump_tweets
+  config:
+    db: ja
+    collection: tweets
+    target_dir: './data/tweets'
+

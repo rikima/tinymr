@@ -1,0 +1,17 @@
+- module: load_twitter_clients
+  config:
+    target: './twitter_clients'
+    debug: 0
+
+- module: mapper
+  config:
+
+- module: sorter
+  config:
+    skip: 1
+    unit: 10000
+
+- module: reducer
+  config:
+    skip: 1
+ 

@@ -1,0 +1,19 @@
+- module: term_extracter
+  config:
+    debug: 0
+    target: '/home/rikitoku/workspace/dj_classifier/example/extract_env/texts.list'
+    skip:1
+
+- module: df_mapper
+  config:
+    debug: 0
+
+- module: sorter
+  config:
+    debug: 1
+    unit: 10000
+
+- module: reducer
+  config:
+    debug: 1
+

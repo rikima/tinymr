@@ -1,0 +1,9 @@
+#Sat May 28 09:30:39 JST 2011
+eclipse.preferences.version=1
+encoding//plugins/inverse_mapper.py=utf-8
+encoding//plugins/inverse_reducer.py=utf-8
+encoding//plugins/mapper.py=utf-8
+encoding//plugins/plugin.py=utf-8
+encoding//plugins/reducer.py=utf-8
+encoding//plugins/sorter.py=utf-8
+encoding/mr.py=utf-8

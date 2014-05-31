@@ -1,0 +1,9 @@
+syntax: glob
+tmp/*
+
+syntax: regexp
+pyc$
+~$
+mapped$
+sored$
+reduced$

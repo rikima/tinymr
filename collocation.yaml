@@ -1,0 +1,15 @@
+- module: load_splitted_tweets
+  config:
+    target: './parsed_tweets.list.splitted'
+
+- module: collocation_mapper
+  config:
+
+- module: sorter
+  config:
+    unit: 10000
+
+- module: reducer
+  config:
+
+ 

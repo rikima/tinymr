@@ -1,0 +1,31 @@
+- module: wcmapper
+  config:
+    debug: 0
+    target: './data/gutenberg/ulyss12.txt'
+    output: './data/gutenberg/ulyss12.out'
+
+
+- module: sorter
+  config:
+    num_threads: 6
+    debug: 1
+    unit: 100000
+
+- module: reducer
+  config:
+    debug: 1
+
+
+- module: inverse_mapper
+  config:
+    debug: 1
+
+- module: sorter
+  config:
+    debug: 1
+    unit: 10000
+    numeric: 1
+
+- module: inverse_reducer
+  config:
+    debug: 1
